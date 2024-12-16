@@ -84,7 +84,7 @@ class PHP_Email_Form {
             // Send the email
             $mail->send();
 
-            return json_encode(['success' => true, 'message' => 'Email sent successfully!']);
+            return 'OK';
         } catch (Exception $e) {
             return json_encode(['success' => false, 'message' => "Mailer Error: {$mail->ErrorInfo}"]);
         }

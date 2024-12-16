@@ -1,6 +1,7 @@
-Thanks for downloading this template!
+Pending Things:
 
-Template Name: Gp
-Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Demo Dashbaord
+Working Getting Started
+Working book a Demo
+SEO
+Hosting site
