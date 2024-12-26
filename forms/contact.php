@@ -26,8 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $contact->smtp = [
         'host' => 'smtp.gmail.com',
-        'username' => 'arbaz57@gmail.com',
-        'password' => 'xhca kybk qvsl sgrl',
+        'username' => '',
+        'password' => '',
         'port' => 587
     ];
 
