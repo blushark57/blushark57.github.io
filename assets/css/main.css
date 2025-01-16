@@ -1721,7 +1721,7 @@ section,
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing .pricing-item {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   padding: 40px 40px;
   height: 100%;
   border-radius: 15px;
