@@ -901,6 +901,57 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Why DataViz (GEN AI Features)
+--------------------------------------------------------------*/
+.why-dataviz {
+  background-color: var(--surface-color);
+  padding: 60px 0;
+  text-align: left;
+}
+
+.why-dataviz h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-dataviz .feature {
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--background-color);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.why-dataviz .feature:hover {
+  transform: translateY(-5px);
+}
+
+.why-dataviz .feature .icon {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.why-dataviz .feature h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.why-dataviz .feature p {
+  font-size: 16px;
+  color: var(--default-color);
+}
+
+.why-dataviz h4 {
+  margin: 0;
+  font-family: var(--nav-font);
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 .about .content h3 {
@@ -989,6 +1040,8 @@ section,
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 5px 0;
+  color: var(--accent-color);
+  
 }
 
 .features .features-item i {
@@ -1003,6 +1056,20 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0;
 }
+
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+
+
+.genai-features h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: var(--accent-color);
+}
+
+
 
 /*--------------------------------------------------------------
 # Services Section
